@@ -45,6 +45,7 @@
     <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RSVPRepository\RSVPRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="bin\Debug\BusinessEntities.dll" />
@@ -107,6 +108,12 @@
   <ItemGroup>
     <Folder Include="bin\Release\" />
     <Folder Include="obj\Debug\TempPE\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BuisinessEntities\BuisinessEntities.csproj">
+      <Project>{5fe8a45c-89e3-4ecb-acce-a5f528588ace}</Project>
+      <Name>BuisinessEntities</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
