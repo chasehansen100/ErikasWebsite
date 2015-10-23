@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using BuisinessEntities;
 
-namespace DataAccess.RSVPRepository
+namespace DataAccess.AdminRepository
 {
-    public class RSVPRepository : DapperBase
+    public class AdminRepository : DapperBase
     {
+
     }
 }
