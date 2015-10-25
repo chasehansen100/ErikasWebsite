@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BusinessEntities
+namespace BuisinessEntities.Enums
 {
-    public class Class1
+    public enum StoredProcedures
     {
+        Proc_Custom_RSVPRepositories_CreateRSVP
     }
 }

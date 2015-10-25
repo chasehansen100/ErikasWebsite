@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ErikasWebsite", "ErikasWebs
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ErikasWebsite.Tests", "ErikasWebsite.Tests\ErikasWebsite.Tests.csproj", "{B36435AF-C8B0-440A-9903-74A62C453EA0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuisinessEntities", "BuisinessEntities\BuisinessEntities.csproj", "{5FE8A45C-89E3-4ECB-ACCE-A5F528588ACE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessEntities", "BuisinessEntities\BusinessEntities.csproj", "{5FE8A45C-89E3-4ECB-ACCE-A5F528588ACE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{3CE9546D-8107-48EF-A32D-6D2D1EE4AF32}"
 EndProject

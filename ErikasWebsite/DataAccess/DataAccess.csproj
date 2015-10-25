@@ -143,9 +143,9 @@
     <Folder Include="obj\Debug\TempPE\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BuisinessEntities\BuisinessEntities.csproj">
+    <ProjectReference Include="..\BuisinessEntities\BusinessEntities.csproj">
       <Project>{5fe8a45c-89e3-4ecb-acce-a5f528588ace}</Project>
-      <Name>BuisinessEntities</Name>
+      <Name>BusinessEntities</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
