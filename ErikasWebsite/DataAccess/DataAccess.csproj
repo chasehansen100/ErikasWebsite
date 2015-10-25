@@ -125,6 +125,10 @@
     <Content Include="obj\Debug\DataAccess.csproj.FileListAbsolute.txt" />
     <Content Include="obj\Debug\DataAccess.dll" />
     <Content Include="obj\Debug\DataAccess.pdb" />
+    <Content Include="Scripts\jquery-1.4.4-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.4.js" />
+    <Content Include="Scripts\jquery-1.4.4.min.js" />
+    <Content Include="Scripts\jquery.easing.1.3.js" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

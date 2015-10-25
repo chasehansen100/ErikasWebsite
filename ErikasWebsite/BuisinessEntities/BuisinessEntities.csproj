@@ -51,10 +51,15 @@
     <Content Include="obj\Debug\BuisinessEntities.csproj.FileListAbsolute.txt" />
     <Content Include="obj\Debug\BuisinessEntities.dll" />
     <Content Include="obj\Debug\BuisinessEntities.pdb" />
+    <Content Include="Scripts\jquery-1.4.4-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.4.js" />
+    <Content Include="Scripts\jquery-1.4.4.min.js" />
+    <Content Include="Scripts\jquery.easing.1.3.js" />
   </ItemGroup>
   <ItemGroup>
     <None Include="obj\Debug\BuisinessEntities.csprojResolveAssemblyReference.cache" />
     <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="obj\Debug\TempPE\" />
