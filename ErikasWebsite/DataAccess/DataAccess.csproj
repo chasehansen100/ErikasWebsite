@@ -34,6 +34,13 @@
       <HintPath>..\packages\BouncyCastle.1.7.0\lib\Net40-Client\BouncyCastle.Crypto.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Dapper, Version=1.12.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Dapper-Async.1.03\lib\net45\Dapper.dll</HintPath>
+    </Reference>
+    <Reference Include="Dapper.DataRepositories">
+      <HintPath>..\packages\Dapper.DataRepositories.1.0.0.2\lib\net45\Dapper.DataRepositories.dll</HintPath>
+    </Reference>
     <Reference Include="Google.Apis, Version=1.9.3.19379, Culture=neutral, PublicKeyToken=4b01fa6e34db77ab, processorArchitecture=MSIL">
       <HintPath>..\packages\Google.Apis.1.9.3\lib\net40\Google.Apis.dll</HintPath>
       <Private>True</Private>
@@ -58,6 +65,9 @@
       <HintPath>..\packages\Google.Apis.1.9.3\lib\net40\Google.Apis.PlatformServices.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="MicroOrm.Pocos.SqlGenerator">
+      <HintPath>..\packages\MicroOrm.Pocos.SqlGenerator.1.0.0.2\lib\net45\MicroOrm.Pocos.SqlGenerator.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
@@ -70,6 +80,7 @@
   <ItemGroup>
     <Compile Include="AdminRepository\AdminRepository.cs" />
     <Compile Include="DapperBase.cs" />
+    <Compile Include="EventRepository\EventRepository.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
