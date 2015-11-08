@@ -4,11 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using BuisinessEntities.Enums;
-using BusinessEntities;
+using BuisinessEntities;
 using Dapper;
 using System.Data;
+using DataAccess;
+using BusinessEntities;
 
-namespace DataAccess.RSVPRepository
+namespace TG.DataAccess.RSVPRepository
 {
     public class RSVPRepository : DapperBase
     {
